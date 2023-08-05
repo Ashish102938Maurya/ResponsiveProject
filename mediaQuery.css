@@ -1,0 +1,212 @@
+
+@media screen and (max-width: 991px) {
+    .card-example{
+        width: 48%;
+    }
+
+    .nav-links ul{
+        display: none;
+    }
+
+    .nav-toggle{
+        display: inline;
+    }
+
+    .random-text{
+        height: 300px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .big-feature-section {
+        margin-block: 100px;
+    }
+    .header-right img{
+        height: 550px;
+        width: 550px;
+    }
+    .header-left{
+        width: 100%;
+    }
+    h3{
+        font-size: 1.6rem;
+    }
+    .card-text{
+        margin-inline: 30px;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    .header-section{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .header-left{
+        width: 100%;
+        text-align: center;
+        font-size: medium;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+
+    .primary-btn{
+        width: 100%;
+        text-align: center;
+    }
+    .header-right{
+        height: 450px;
+        width: 450px;
+        margin-inline: auto;
+    }
+    header{
+        padding: 10px;
+    }
+    
+    .company-section img{
+        height: 80px;
+        width: 80px;
+    } 
+
+    .feature-card {
+        max-width: 47%;
+    }
+    .big-feature-section {
+        flex-direction: column;
+    }
+    .big-feature-left img {
+        height: 350px;
+        width: 350px;
+    }
+    .big-feature-right{
+        padding-inline: 20px;
+    }
+    .random-text .primary-btn{
+        width: 70%;
+    }
+    .feature-header{
+        margin-bottom: 30px;
+    }
+
+    .big-feature-section.second{
+        flex-direction: column;
+    }
+
+}
+
+@media screen  and (max-width: 478px){
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+
+    .nav-left img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .company-section{
+        margin-top: -10px;
+    }
+
+    .companyLOGO {
+        font-size: 1.2rem;
+    }
+
+    .feature{
+        margin-top: 30px;
+    }
+
+    .feature-header h2{
+        font-size: 1.3rem;
+    }
+    .container{
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-inline: 10px;
+    }
+
+    .header-section{
+        justify-content: center;
+    }
+
+    .header-left{
+        max-width: 400px;
+    }
+
+
+    .company-section p {
+        margin-bottom: 25px;
+    }
+
+    .head{
+        margin-inline: auto;
+    }
+    .company-section img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    
+    .header-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-right img{
+        margin: 0 100px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .feature-card{
+        min-height: 350px;
+        max-width: 90%;
+    }
+
+    .feature-header{
+        text-align: center;
+    }
+    .feature-area{
+        justify-content: center;
+
+    }
+
+    .secondary-btn{
+        text-align: center;
+        width: 50vw;
+    }
+
+    .big-feature-section{
+        gap: 10px;
+    }
+
+    .big-feature-left{
+        max-width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .big-feature-left:nth-child(1){
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-area{
+        justify-content: center;
+    }
+
+    .card-example{
+        width: 90%;
+    }
+}

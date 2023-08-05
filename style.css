@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: black;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    color: tomato;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 10px;
+    overflow: hidden;
+}
+
+.container img{
+    height: 10px;
+    width: 10px;
+}
+
+nav{
+    padding: 10px;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 18px;
+}
+
+.companyLOGO{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.main-nav{
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-block: 10px;
+    position: relative;
+}
+
+.nav-links{
+    flex-basis: 700px;   
+    /* set the width of nav link class */
+}
+
+.nav-left img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-left{
+    gap: 5px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 20px;
+}
+
+li{
+    transition: 0.3s ease-in;
+}
+
+li:hover{
+    transform: translateY(-5px);
+}
+
+.hover-link:hover{
+color: rgb(255, 123, 0);
+}
+
+
+.primary-btn{
+    transition: 0.3s ease-out;
+    border-radius: 3px ;
+    border: 2px solid black;
+    padding: 10px 10px;
+    color: white;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.primary-btn:hover{
+    background-color: rgb(0, 145, 255);
+    color: black;
+}
+
+.secondary-btn{
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding: 10px 10px;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    font-weight: bold;
+}
+
+.secondary-btn:hover{
+    border: 2px solid black;
+    color: rgba(0, 0, 0, 0.771);
+    background-color: rgb(164, 157, 157);
+}
+
+header{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 40vw;
+    text-align: start;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.header-right img{
+    height: 600px;
+    width: 600px;
+}
+
+.company-section{
+    margin-block-end:20px ;
+}
+
+.company-section p{
+
+    text-align: center;
+    margin-block-start: 50px;
+    font-weight: bold;
+}
+
+.company-section img{
+    height: 100px;
+    width: 100px;
+    margin-block-end: 30px;
+}
+
+.logo{
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature{
+    margin-block-start: 100px;
+    margin-bottom: 40px;
+}
+
+.feature-header{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feature-area{
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-card{
+    
+    padding: 10px;
+    border: 1px solid gray;
+    justify-content: center;
+    max-width: 30%;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.feature-card p{
+    text-align: center;
+}
+
+.feature-card img{
+    height: 60px;
+    width: 60px;
+}
+
+.feature-card:hover{
+    border: 2px solid black;
+}
+
+
+.big-feature-section{
+    margin-block: 120px;
+    gap: 100px;
+}
+
+.big-feature-left img{
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.big-feature-left{
+    max-width: 49%;
+}
+
+.big-feature-right{
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.big-feature-section.second{
+    flex-direction: row-reverse;
+}
+
+.card-area{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-example{
+    width: 23%;
+    position: relative;
+    min-height: 400px;
+    background: black;
+}
+
+.card-text{
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    margin-inline: 20px;
+}
+
+.random-text{
+    margin-top: 1.5rem;
+    text-align: center;
+    background: linear-gradient(#0000ff,black);
+    height: 400px;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.random-text p{
+    color: white;
+}
+
+.random-text h1{
+    color: red;
+}
+
+.footer-ele{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 20px;
+    background-color: #7171cd;
+    height: 3rem;
+}
+
+::selection{
+    color: white;
+    background-color: black;
+}
